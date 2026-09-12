@@ -1,0 +1,9 @@
+# Runtime dependencies for the full pipeline.
+# yfinance and baostock are optional live data sources; the offline tests and
+# demo.py do not import them. matplotlib/scipy are used by factor backtesting.
+pandas>=2.2,<4
+numpy>=1.24
+matplotlib>=3.7
+yfinance>=0.2
+baostock>=0.8
+scipy>=1.10

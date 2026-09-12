@@ -1,0 +1,26 @@
+# Database files
+*.db
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Backtest figures are local artifacts and are not committed
+outputs/
